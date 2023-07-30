@@ -33,28 +33,55 @@
   }
 
 
-  /* GENERAL */
+/* GENERAL */
 
-  html {
+html {
     font-size: 62.5%;
-  }
+}
 
-  body {
-    background-color: rgb(204, 88, 88);
+body {
+    /* background-color: rgb(204, 88, 88); */
     font-family: 'Josefin Sans', sans-serif;
     height: 100vh;
-  }
+}
 
-  /* HEADER */
+/* HEADER */
 
-  .header {
-    padding: clamp(4rem, 10vw, 15rem)
-  }
+.header {
+    padding: clamp(4rem, 10vw, 15rem);
+}
 
-  .header__logo {
+.header__logo {
     width: 35%;
-  }
+}
 
- 
+/* MAIN */
 
+.hero__pic__desktop {
+    display: none;
+}
 
+.hero__pic__mobile {
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.main__article {
+    margin: clamp(4rem, 10vw, 15rem);
+    text-align: center;
+}
+
+.article__title {
+    color: hsl(0, 6%, 24%);
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.article__title--top {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
